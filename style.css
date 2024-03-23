@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+body h1 {
+    color: crimson;
+}
+body p {
+    background-color: rgb(19, 171, 231);
+    color: cadetblue;
+}
+body ul {
+    color: black;
+}
+body ol {
+    color: brown;
+}

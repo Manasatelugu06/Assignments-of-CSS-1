@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Styled Buttons</title>
+<style>
+  /* Base button styles */
+  .custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff; /* Default background color */
+    transition: background-color 0.3s ease;
+  }
+
+  /* Hover state */
+  .custom-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+
+  /* Active state */
+  .custom-button:active {
+    background-color: #ef4d07; /* Darker color on active */
+  }
+</style>
+</head>
+<body>
+  <button class="custom-button">Click me</button>
+</body>
+</html>
